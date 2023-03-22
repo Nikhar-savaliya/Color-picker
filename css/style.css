@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Outfit:wght@400;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    box-sizing: border-box;
+    background-image: radial-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/Fluffy-Clouds-Zoom-Background.jpg);
+    background-size: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 0 0;
+    color: aliceblue;
+}
+
+.container button {
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(13, 19, 80);
+    height: 40px;
+    margin: 10px 10px 10px;
+}
+
+.container button a{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    color: aliceblue;
+    font-weight: 700;
+    padding: 20px;
+}
